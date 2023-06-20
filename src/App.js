@@ -7,6 +7,7 @@ const customer ={
   'birthday': '970526',
   'gender': '남자',
   'job': '대학생',
+  'age': '24',
 }
 
 
@@ -17,6 +18,7 @@ function App() {
         birthday={customer.birthday}
         gender={customer.gender}
         job={customer.job}
+        age={customer.age}
       />
   );
 }

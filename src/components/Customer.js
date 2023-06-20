@@ -8,6 +8,8 @@ class Customer extends React.Component{
                 <p>{this.props.birthday}</p>
                 <p>{this.props.gender}</p>
                 <p>{this.props.job}</p>
+                <p>{this.props.age}</p>
+
             </div>
         )
     }
